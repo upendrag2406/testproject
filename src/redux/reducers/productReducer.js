@@ -10,7 +10,6 @@ const productReducer = (state = initialState, {type, payload}) => {
                 products: payload}; 
         case ActionTypes.ADD_PRODUCT:
             return {...state.products, 
-                //products: payload,
                 products: [...state.products, payload],
             }; 
         default:

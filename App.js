@@ -9,7 +9,6 @@ import HomeScreen from './src/redux/Components/HomeScreen';
 
 const App = () => {
   return(
-
     <HomeScreen/>
   )
 }
