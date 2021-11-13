@@ -66,6 +66,9 @@ const HomeScreen = () => {
         }else{
 
             setModalVisible(false)
+            
+            setPostTitle("")
+            setPostBody("")
             var Id = Math.floor(Math.random() * 100)+1 ;
     
             axios({
