@@ -1,0 +1,6 @@
+module Pods_upendraTest {
+  umbrella header "Pods-upendraTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
